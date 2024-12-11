@@ -10,28 +10,12 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Home from './src/screens/Home';
 import MakeList from './src/components/MakeList';
-import {Image, StyleSheet, useColorScheme, View, Text} from 'react-native';
+import {Image, StyleSheet, View} from 'react-native';
 
-import {Colors} from 'react-native/Libraries/NewAppScreen';
 const Stack = createNativeStackNavigator();
 function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
   return (
     <NavigationContainer>
-      {/* <View>
-        <View style={{marginBottom: 5}}>
-          <MakeList />
-        </View>
-        <View style={{marginBottom: 5}}>
-          <Home />
-        </View>
-      </View> */}
-
       <Stack.Navigator>
         <Stack.Screen
           name="Home"

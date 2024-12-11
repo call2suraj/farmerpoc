@@ -6,7 +6,6 @@ const MakeList = ({navigation, route}) => {
   const [selected, setSelected] = React.useState('');
   const [checked, setChecked] = React.useState('first');
   const [year, setYear] = React.useState('');
-  const [make, setMake] = React.useState('');
   const [model, setModel] = React.useState('');
   const data = [
     {key: '1', value: 'ACURA', disabled: false},
