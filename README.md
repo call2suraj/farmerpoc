@@ -4,6 +4,10 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 
 
+https://github.com/user-attachments/assets/654a5a52-5f2f-44c9-9213-4901a0163d69
+
+
+
 # Getting Started
 
 > **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
